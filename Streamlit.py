@@ -61,7 +61,6 @@ name="Height and Weight", mode="markers"))
 st.write("")
 st.write(fig)
 
-st.plotly_chart(fig)
 
 with st.form("User Details"):
     firstname = st.text_input("First Name")
