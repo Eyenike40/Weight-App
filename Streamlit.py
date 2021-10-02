@@ -59,7 +59,7 @@ fig.add_trace(go.Scatter(x=df_height_weight["Height"], y=df_height_weight["Weigh
 name="Height and Weight", mode="markers"))
 
 st.write("")
-#st.write(fig)
+st.write(fig)
 
 st.plotly_chart(fig)
 
